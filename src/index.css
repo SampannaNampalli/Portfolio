@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Tech Palette */
+  --bg-primary: #0a192f;
+  --bg-secondary: #112240;
+  --text-primary: #ccd6f6;
+  --text-secondary: #8892b0;
+  --accent: #64ffda;
+  --accent-tint: rgba(100, 255, 218, 0.1);
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-secondary);
+  border-radius: 5px;
+  border: 2px solid var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* Utilities */
+.text-accent {
+  color: var(--accent);
+}
+
+.bg-accent-tint {
+  background-color: var(--accent-tint);
+}
+
+.border-accent {
+  border-color: var(--accent);
+}
