@@ -85,19 +85,19 @@ export function PortfolioPage() {
             <div className="grid md:grid-cols-3 gap-12">
               <div className="md:col-span-2 text-slate-400 leading-relaxed space-y-4">
                 <p>
-                  Hello! My name is Sampanna and I enjoy creating things that live
-                  on the internet. My interest in web development started
-                when I began to ponder on the scale of the various systems that run
-                today's world. And so, I developed an interest in how these systems
-                are designed, and what might be the foundations that hold these systems
+                Hello! My name is Sampanna, and I enjoy creating things that
+                live on the internet. My interest in web development began when I
+                started pondering the scale and complexity of the systems that power
+                today’s world. This curiosity naturally led me to explore how such
+                systems are designed and the foundational principles that hold them
                 together.
                 </p>
                 <p>
-                Fast-forward to today, and I've had the privilege of <span className="text-accent">trying</span> this sport of solving <span className="text-accent">interesting</span> and <span className="text-accent">complex</span> problems,
-                while at the same time learning to build <span className="text-accent">scalable</span> web applications that
-                follow {' '}
-                  <span className="text-accent">industry-standards</span>. My main
-                focus these days is building <span className="text-accent">innovative</span>, difficult products
+                Fast-forward to today, and I've had the privilege of engaging in the art of solving <span className="text-accent">interesting</span> and <span className="text-accent">complex</span> problems,
+                while simultaneously learning to build <span className="text-accent">scalable</span> web applications that
+                adhere to {' '}
+                  <span className="text-accent">industry standards</span>. My primary
+                focus these days is building <span className="text-accent">innovative</span>, <span className="text-accent">challenging</span> products
                 that help to <span className="text-accent">deepen my understanding</span> of this <span className="text-accent">ever-evolving</span> field.
                 </p>
               </div>
@@ -133,10 +133,10 @@ export function PortfolioPage() {
               Get In Touch
             </h2>
             <p className="text-slate-400 text-lg mb-12">
-            Being a pre-final year engineering student, I'm currently looking
-            for new opportunities at the intern level.
-              In any case, my inbox is always open. Whether you have a question or just want to
-              say hi, I'll get back to you!
+            As a pre-final-year engineering student, I’m currently seeking
+            new opportunities at the intern level. That said, my inbox is
+            always open. Whether you have a question, an opportunity, or
+            just want to say hello, I’ll be happy to get back to you!
             </p>
             <a href="mailto:sampannanampalli11@gmail.com" className="inline-block px-8 py-4 border border-accent text-accent font-mono rounded hover:bg-accent-tint transition-colors duration-300" target="_blank" rel="noopener noreferrer">
               Say Hello
