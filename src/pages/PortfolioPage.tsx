@@ -56,7 +56,7 @@ export function PortfolioPage() {
               </a>
             </li>
           </ol>
-          <a href='/src/assets/Resume.pdf' className="px-4 py-2 border border-accent text-accent text-xs font-mono rounded hover:bg-accent-tint transition-colors" target="_blank" rel="noopener noreferrer">
+          <a href='/Resume.pdf' className="px-4 py-2 border border-accent text-accent text-xs font-mono rounded hover:bg-accent-tint transition-colors" target="_blank" rel="noopener noreferrer">
             Resume
           </a>
         </motion.div>
@@ -105,7 +105,7 @@ export function PortfolioPage() {
               <div className="relative group">
                 <div className="absolute inset-0 border-2 border-accent rounded translate-x-4 translate-y-4 transition-transform group-hover:translate-x-2 group-hover:translate-y-2" />
                 <div className="relative rounded overflow-hidden bg-accent">
-                  <img src="/src/assets/Photo.webp" alt="Profile" className="w-full h-full mix-blend-multiply filter grayscale hover:filter-none transition-all duration-300 opacity-90 hover:opacity-100" />
+                  <img src="/person_clip_art.jpg" alt="Profile" className="w-full h-full mix-blend-multiply filter grayscale hover:filter-none transition-all duration-300 opacity-90 hover:opacity-100" />
                 </div>
               </div>
             </div>
